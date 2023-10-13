@@ -126,6 +126,10 @@ text-align: center;
 /* --------------------------------------------------------------------- */
 /* start contanersp */
 
+.contanersp{
+    height: 1300px;
+}
+
 .headp{
     color: black;
     text-align: center;
@@ -139,6 +143,84 @@ padding: 10vw;
     color: rgb(252, 159, 45);
     width: 100PX;
     height: 100PX;
+}
+
+
+
+/* --------------------------------------------------------------------- */
+
+
+
+.row{
+    transform: translate(-30vw,20vh);
+    height: 5vw;
+}
+
+.row .number{
+    color: rgb(143, 142, 142);
+    font-size: 12vw;
+}
+.icon #ic{ 
+    width: 15vw;
+    height: 15vh;
+    color: rgb(252, 159, 45);
+}
+
+.row h4{
+color: rgb(255, 217, 0);
+font-size: 3vw;
+}
+.row p{
+    font-size: 1vw;
+
+}
+/* --------------------------------------------------------------------- */
+.row2{
+    transform: translate(0vw,10vh);
+    height: 5vw;
+}
+
+.row2 .number{
+    color: rgb(143, 142, 142);
+    font-size: 12vw;
+}
+.icon #ic{ 
+    width: 15vw;
+    height: 15vh;
+    color: rgb(252, 159, 45);
+}
+
+.row2 h4{
+color: rgb(255, 217, 0);
+font-size: 3vw;
+}
+.row2 p{
+    font-size: 1vw;
+
+}
+/* --------------------------------------------------------------------- */
+.row3{
+    transform: translate(30vw,0vh);
+    height: 5vw;
+}
+
+.row3 .number{
+    color: rgb(143, 142, 142);
+    font-size: 12vw;
+}
+.icon3 #ic{ 
+    width: 15vw;
+    height: 15vh;
+    color: rgb(252, 159, 45);
+}
+
+.row3 h4{
+color: rgb(255, 217, 0);
+font-size: 3vw;
+}
+.row3 p{
+    font-size: 1vw;
+
 }
 
 /* end contanersp */
