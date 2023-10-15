@@ -1,12 +1,13 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%; 
 }
 :root{
     background-color: rgb(8, 8, 8) ;
 }
 body{
 font-family:serif;
+background-color: aqua;
 /* height: 1500px; */
 }
 
@@ -16,7 +17,7 @@ font-family:serif;
 /* --------------------------------------------------------------------- */
 .imgnav{
     width: 60px;
-    height: 50px;
+    height: auto;
 }
 /* --------------------------------------------------------------------- */
 #navp{
@@ -85,8 +86,9 @@ border-left: 1px rgb(255, 255, 255) solid;
 }
 .landing{
 width: 80%;
+
 margin: auto;
-background-color: rgb(255, 255, 255);
+background-color:none;
 color: rgb(3, 4, 4);
 padding: 10vw;
 text-align: center;
@@ -98,7 +100,7 @@ text-align: center;
     color: rgb(255, 254, 254);
     margin: 10px;
     width: 140px;
-    height: 50px;
+    height: auto;
 
 }.landing button:hover,.landing button:focus{
     background-color: rgb(255, 255, 255);
@@ -128,7 +130,7 @@ text-align: center;
 /* start contanersp */
 
 .contanersp{
-    height: 850px;
+    height: auto;
 }
 
 .headp{
@@ -136,7 +138,7 @@ text-align: center;
     text-align: center;
     width: 80%;
 margin: auto;
-background-color: rgb(255, 255, 255);
+background-color: none;
 color: rgb(3, 4, 4);
 padding: 10vw;
 }
@@ -151,10 +153,10 @@ padding: 10vw;
     color: black;
     text-align: center;
     width: 80%;
-    transform: translate(0vw,-20vh);
+    transform: translate(0vw,10vh);
 
 margin: auto;
-background-color: rgb(255, 255, 255);
+background-color: none;
 color: rgb(3, 4, 4);
 padding: 10vw;
 }
@@ -255,7 +257,7 @@ font-size: 3vw;
 }
 .ul li{
     width: 20vw;
-    height: 10vh ;
+    height: auto ;
     font-family: serif;
     /* transform: translate(5vw,-10vh); */
     display: inline;
@@ -274,11 +276,11 @@ font-size: 3vw;
 
 
 .gelary{
-    background-color: rgb(255, 255, 255);
+    background-color: none;
  }
  .image1 img{
     width:10vw;
-    height:10vw;
+    height:auto;
     transform: translate(0vw,0vh);
  
  }
@@ -290,7 +292,7 @@ font-size: 3vw;
     transform: translate(-4vw,0vh);
     border: 2px solid black;
     width:70vw;
-    height:55vh; 
+    height:auto; 
  }
  
 /* end block */
@@ -303,7 +305,7 @@ font-size: 3vw;
 /* --------------------------------------------------------------------- */
 /* start cars proce */
 .garag{
-    height: -1200px;
+    height: auto;
 
 }
 
@@ -319,7 +321,7 @@ font-size: 3vw;
 #ford{
     width: 50vw;
     height: 50vh;
-    transform: translate(25vw,-25vh);
+    transform: translate(25vw,-0vh);
     border: 2px solid black;
 
 }
